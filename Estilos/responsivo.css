@@ -1,0 +1,95 @@
+/* Espaço para trabalhar a responsividade da página */
+/* Responsividade Celular */
+@media (max-width: 400px) {
+   
+    .cabecalho__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+        justify-content: center;
+        margin: 10px;
+        gap: 25px;
+    }
+
+    .cabecalho_img_puc {
+        width: 80px;
+        height: 50px;
+        padding: 1% 1%;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 2% 4% 2% 4%;
+        gap: 20px;
+    }
+
+    .apresentacao__conteudo___titulo,
+    .apresentacao__conteudo__texto {
+        width: 350px;
+    }
+
+    .campo_video {
+        width: 38%;
+        height: 250px;
+    }
+
+    .comentarios {
+        padding: 3% 2% 3% 2%;
+        margin: 5% 5% 5% 5%;
+        gap: 10px;
+    }
+
+    .input,
+    .textarea {
+        width: 300px;
+    }
+    
+    .apresentacao__links__navegacao{
+        margin: 0.7em;
+    }   
+}
+/* ################################*/
+
+/* Responsividade tablet*/
+
+@media (min-width: 400px) and (max-width: 1200px) {
+    .cabecalho {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 7%;
+    }
+
+    .campo_video {
+        width: 45vh;
+        height: 250px;
+    }
+
+    .apresentacao__conteudo___titulo,
+    .apresentacao__conteudo__texto {
+        width: 40%;
+    }
+
+    .comentarios {
+        padding: 3% 2% 3% 2%;
+        margin: 5% 5% 5% 5%;
+        gap: 10px;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 4% 6% 4% 6%;
+    }
+
+    .comentarios {
+        padding: 4% 6% 4% 6%;
+    }
+    
+    .apresentacao__links__navegacao{
+        margin: 0.7em;
+    }
+}

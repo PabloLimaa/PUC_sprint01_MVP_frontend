@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pós-Graduação - PUC-Rio</title>
+    <link rel="stylesheet" href="Estilos/style.css">
+    <link rel="stylesheet" href="Estilos/responsivo.css">
+</head>
+<body>
+    <!--Cabeçalho do projeto -->
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <img class="cabecalho_img_puc" src="Arquivos/logo_puc02.png" alt="Logo da PUC-Rio">
+            <h1 class="cabecalho_texto">Sprint: Desenvolvimento Full Stack Básico</h1>
+        </nav>
+    </header>
+    <!--Meio do corpo do projeto -->
+    <main>
+        <!--Primeira seção (breve descrição e vídeo) -->
+        <section class="apresentacao">
+            <div class="apresentacao__conteudo">
+                <h2 class="apresentacao__conteudo___titulo">Espaço desenvolvido para a publicação do meu MVP, curso <strong class="titulo-destaque"> Full Stack!</strong></h2>
+                <p class="apresentacao__conteudo__texto">Sou Pablo Lima, aluno de pós-graduação da PUC-Rio e em minha primeira sprint foi preciso demonstrar conhecimentos básicos de front-end, back-end e banco de dados. Com isso, se fez necessário a criação deste projeto para comprovar tais habilidades. O vídeo é um pitch de como foi desenvolvido o MVP.</p>
+            </div>
+            <div class="apresentacao__conteudo">
+                <iframe class="campo_video" width="560" height="315" 
+                src="https://www.youtube.com/embed/1iVN_yjdDd8" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        <!--Seção para inserir os comentários  -->
+        <section class="comentarios">
+            <h2 class="comentarios__titulo">Comentários</h2>
+            <form action="">
+                <div class="div__form">
+                    <input required class="input" type="text" name="" id="nome">
+                    <label class="input_label" for="nome">Nome</label>
+                </div>
+                <div class="div__form">
+                    <textarea class="textarea" name="texto__comentario" id="texto__comentario" placeholder="Insira seu comentário" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </section>
+        <!--Espaço com os comentários -->
+        <section class="tabela_comentarios">
+            <table id="minha_tabela">
+                <tr>
+                    <th>Nome</th>
+                    <th>Comentários</th>
+                    <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <!--Rodapé do projeto -->
+    <footer class="rodape">
+        <a class="apresentacao__links__navegacao" href="\Arquivos\Currículo Oficial 2023 - Pablo Lima.pdf" download="Currículo Oficial 2023 - Pablo Lima.pdf">
+            <img class="apresentacao__icones" src="Arquivos/curriculo02.png" alt="Logo curriculo">Currículo
+        </a>
+        <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/pablo-henrique-lima-542300164/">
+            <img class="apresentacao__icones" src="Arquivos/linkedin02.png" alt="Logo Linkedin">Linkedin
+        </a>
+        <a class="apresentacao__links__navegacao" href="https://github.com/PabloLimaa">
+            <img class="apresentacao__icones" src="Arquivos/GitHub02.png" alt="Logo GitHub">Github
+        </a>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
