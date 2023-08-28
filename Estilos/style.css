@@ -139,7 +139,7 @@ form {
 .input{
     width: 100%;
     padding: 5px;
-    color: var(--cor-azul-claro);
+    color: var(--cor-azul);
     border: 0;
     border-bottom: 2px solid var(--cor-secundaria);
     outline: 0;
@@ -155,7 +155,7 @@ form {
 .input:focus ~ label,
 .input:valid ~ label{
     transform: translateY(-24px);
-    font-size: 12px;
+    font-size: 14px;
     color: var(--cor-azul);
 }
 .input:focus ~ .comentarios__titulo{
@@ -166,7 +166,7 @@ form {
     width: 100%;
     height: 70px;
     padding: 15px;
-    color: var(--cor-azul-claro);
+    color: var(--cor-azul);
     border-radius: 20px;
     border: 1px solid var(--cor-secundaria);
     border-bottom: 2px solid var(--cor-secundaria);
@@ -182,47 +182,72 @@ form {
 .textarea:focus .comentarios__titulo{
     color: var(--cor-azul);
 }
+
+.div__botao {
+    display: flex;
+    justify-content: left; 
+    align-items: center;
+}
+
+.botao_comentario {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: var(--cor-quarta);
+    border: 1px solid var(--cor-quarta);
+    border-radius: 20px;
+    cursor: pointer;
+    color: var(--cor-secundaria);
+    transition: 0.5s;
+    outline: 0;
+    font-family: var(--font-secundaria);
+}
+.botao_comentario:hover {
+    background-color: var(--cor-azul-claro);
+    color: var(--cor-azul);
+}
+
 /* ########################################### */
 
 /* Espaço com os comentários da página */
-.tabela_comentarios {
-    padding: 3% 6% 3% 6%;
+.scroll__comentarios {
+    padding: 3% 6%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
     align-items:center;
+    gap: 30px;
+    background-color: var(--cor-primaria);
+    box-shadow: inset 0 0 3px 3px var(--cor-secundaria);
+    height: 400px;
+    overflow-y: scroll;
 }
 
-table,
-th,
-td {
-    border: 1px solid var(--cor-quarta);
-    border-collapse: collapse;
-    cursor: pointer;
-    position: relative;
-    padding: 12px 8px 12px 10px;
-    transition: 0.2s;
-    text-align: center;
-    font-size: 1rem;
+.div__scroll__comentarios {
+    padding: 1% 3%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: top;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+    width: 450px;
+    height: 170px;
     font-family: var(--font-secundaria);
+    text-align: justify;
+    background-color: var(--cor-primaria);
+    border-radius: 20px;
 }
 
-table{
-    background-color: white;
-    width: 50%;
+.div__scroll__comentarios:hover {
+    background-color: var(--cor-quarta);
 }
 
-tr:nth-child(odd){
-    background-color: #eee;
+.titulo__comentarios {
+    font-family: var(--font-secundaria);
+    color: var(--cor-secundaria);
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
-th:nth-child(1){
-    width: 30%;
-}
-
-tr:hover {
-    background: var(--cor-azul-claro);
-}
 
 /* ########################################### */
 
@@ -247,17 +272,20 @@ tr:hover {
     margin-right: 0.5em;
 }
 
-.apresentacao__links__navegacao:hover {
-    color: var(--cor-terciaria);
-}
-
 .apresentacao__links__navegacao {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
     color: var(--cor-secundaria);
+    font-size: 14px;
 }
+
+.apresentacao__links__navegacao:hover {
+    color: var(--cor-terciaria);
+}
+
+
 
 /* ########################################### */
 

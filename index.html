@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pós-Graduação - PUC-Rio</title>
+    <title>Pós-Graduação PUC-Rio</title>
+    <link rel="shortcut icon" href="./Arquivos/logo_titulo.png" type="image/x-icon">
     <link rel="stylesheet" href="Estilos/style.css">
     <link rel="stylesheet" href="Estilos/responsivo.css">
 </head>
@@ -32,27 +33,28 @@
         </section>
         <!--Seção para inserir os comentários  -->
         <section class="comentarios">
-            <h2 class="comentarios__titulo">Comentários</h2>
-            <form action="">
+            <h2 class="comentarios__titulo">Comentar</h2>
+            <form id="formulario" action="">
                 <div class="div__form">
-                    <input required class="input" type="text" name="" id="nome">
+                    <input required class="input" type="text" name="" id="input__nome">
                     <label class="input_label" for="nome">Nome</label>
                 </div>
                 <div class="div__form">
-                    <textarea class="textarea" name="texto__comentario" id="texto__comentario" placeholder="Insira seu comentário" cols="30" rows="10"></textarea>
+                    <textarea class="textarea" name="texto__comentario" id="input__text" placeholder="Insira seu comentário..." cols="30" rows="10"></textarea>
+                </div>
+                <div  class="div__botao">
+                    <button class="botao_comentario" type="submit">Comentar</button>
                 </div>
             </form>
         </section>
         <!--Espaço com os comentários -->
-        <section class="tabela_comentarios">
-            <table id="minha_tabela">
-                <tr>
-                    <th>Nome</th>
-                    <th>Comentários</th>
-                    <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
-                </tr>
-            </table>
+        <section class="scroll__comentarios">
+            <h4 class="titulo__comentarios">Comentários</h4>
+            <div id="Comment__post"></div><br>
         </section>
+
+
+
     </main>
     <!--Rodapé do projeto -->
     <footer class="rodape">
@@ -67,6 +69,6 @@
         </a>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
