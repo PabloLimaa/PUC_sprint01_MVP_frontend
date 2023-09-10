@@ -23,7 +23,7 @@
 
     .apresentacao__conteudo {
         padding: 3% 3% 3% 3%;
-        width: 100vw;
+        width: 100%;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -32,11 +32,11 @@
 
     .apresentacao__conteudo___titulo,
     .apresentacao__conteudo__texto {
-        width: 350px;
+        width: 90%;
     }
 
     .campo_video {
-        width: 95vw;
+        width: 100%;
         height: 250px;
     }
 
@@ -46,9 +46,11 @@
         gap: 10px;
     }
 
-    .input,
+    .input {
+        width: 87%
+    }
     .textarea {
-        width: 300px;
+        width: 80%;
     }
     
     .apresentacao__links__navegacao{
@@ -96,7 +98,7 @@
     }
 
     .campo_video {
-        width: 45vh;
+        width: 40%;
         height: 250px;
     }
 
