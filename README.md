@@ -32,7 +32,7 @@ Isso abrirá o projeto no seu navegador padrão.
 ## Contato
 Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
 
-Nome: Pablo Henrique Costa de Lima
-E-mail: pablo.henriquelima07@gmail.com
-LinkedIn: https://www.linkedin.com/in/pablo-henrique-lima-542300164/
+Nome: Pablo Henrique Costa de Lima  
+E-mail: pablo.henriquelima07@gmail.com  
+LinkedIn: https://www.linkedin.com/in/pablo-henrique-lima-542300164/    
 Agradeço pela sua visita!
