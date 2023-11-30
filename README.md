@@ -3,7 +3,7 @@ Este projeto faz parte do material didático da disciplina Desenvolvimento Full 
 
 O objetivo principal deste repositório é materializar o que foi lecionado durante a primeira sprint de front-end.
 
-Como Executar
+## Como Executar
 Para executar este projeto localmente, siga as instruções abaixo:
 
 Faça o download ou clone este repositório em sua máquina local:
@@ -23,7 +23,7 @@ Copy code
 open index.html
 Isso abrirá o projeto no seu navegador padrão.
 
-Contribuição
+## Contribuição
 Se você deseja contribuir para este projeto, siga as etapas abaixo:
 
 Faça um fork do projeto.
@@ -33,7 +33,7 @@ Faça push para a branch: git push origin feature/nova-feature.
 Abra um pull request.
 Estamos ansiosos para receber suas contribuições!
 
-Contato
+## Contato
 Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
 
 Nome: Pablo Henrique Costa de Lima
