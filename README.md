@@ -9,21 +9,18 @@ Para executar este projeto localmente, siga as instruções abaixo:
 1° Faça o download ou clone este repositório em sua máquina local:
 
 ```bash
-Copy code
 git clone https://github.com/seu-usuario/seu-projeto.git
 ```
 
 2° Navegue até o diretório do projeto:
 
 ```bash
-Copy code
 cd seu-projeto
 ```
 
 3° Abra o arquivo index.html em seu navegador preferido. Você pode simplesmente dar um duplo clique no arquivo ou usar o seguinte comando:
 
 ```bash
-Copy code
 open index.html
 ```
 
