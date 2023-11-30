@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pós-Graduação PUC-Rio</title>
-    <link rel="shortcut icon" href="./Arquivos/logo_titulo.png" type="image/x-icon">
-    <link rel="stylesheet" href="Estilos/style.css">
-    <link rel="stylesheet" href="Estilos/responsivo.css">
+    <link rel="shortcut icon" href="./static/logo_titulo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
 </head>
 <body>
     <!--Cabeçalho do projeto -->
     <header class="cabecalho">
         <nav class="cabecalho__menu">
-            <img class="cabecalho_img_puc" src="Arquivos/logo_puc02.png" alt="Logo da PUC-Rio">
+            <img class="cabecalho_img_puc" src="../static/logo_puc02.png" alt="Logo da PUC-Rio">
             <h1 class="cabecalho_texto">Sprint: Desenvolvimento Full Stack Básico</h1>
         </nav>
     </header>
@@ -32,38 +32,39 @@
             </div>
         </section>
         <!--Seção para inserir os comentários  -->
-        <section class="comentarios">
+        <section class="newItem comentarios">
             <h2 class="comentarios__titulo">Comentar</h2>
-            <form id="formulario" action="">
+            <form id="formulario" name="formulario" action="/criar" method="post">
                 <div class="div__form">
-                    <input required class="input" type="text" name="" id="input__nome">
+                    <input required class="input" type="text" name="nome" id="nome">
                     <label class="input_label" for="nome">Nome</label>
                 </div>
                 <div class="div__form">
-                    <textarea class="textarea" name="texto__comentario" id="input__text" placeholder="Insira seu comentário..." cols="30" rows="10"></textarea>
+                    <textarea class="textarea" name="comentario" id="comentario" placeholder="Insira seu comentário..." cols="30" rows="10"></textarea>
                 </div>
                 <div  class="div__botao">
-                    <button class="botao_comentario" type="submit">Comentar</button>
+                    <!--<button class="botao_comentario" type="submit">Comentar</button> -->
+                    <span onclick="newItem()" class="botao_comentario">Comentar</span>
                 </div>
             </form>
         </section>
         <!--Espaço com os comentários -->
         <section class="scroll__comentarios">
-            <h4 class="titulo__comentarios">Comentários</h4>
-            <div id="Comment__post"></div>
+            <table id="myTable" >
+                <tr></tr>
+            </table>
         </section>
-
     </main>
     <!--Rodapé do projeto -->
     <footer class="rodape">
         <a class="apresentacao__links__navegacao" href="\Arquivos\Currículo Oficial 2023 - Pablo Lima.pdf" download="Currículo Oficial 2023 - Pablo Lima.pdf">
-            <img class="apresentacao__icones" src="Arquivos/curriculo02.png" alt="Logo curriculo">Currículo
+            <img class="apresentacao__icones" src="../static/curriculo02.png" alt="Logo curriculo">Currículo
         </a>
         <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/pablo-henrique-lima-542300164/">
-            <img class="apresentacao__icones" src="Arquivos/linkedin02.png" alt="Logo Linkedin">Linkedin
+            <img class="apresentacao__icones" src="../static/linkedin02.png" alt="Logo Linkedin">Linkedin
         </a>
         <a class="apresentacao__links__navegacao" href="https://github.com/PabloLimaa">
-            <img class="apresentacao__icones" src="Arquivos/GitHub02.png" alt="Logo GitHub">Github
+            <img class="apresentacao__icones" src="../static/GitHub02.png" alt="Logo GitHub">Github
         </a>
     </footer>
 
