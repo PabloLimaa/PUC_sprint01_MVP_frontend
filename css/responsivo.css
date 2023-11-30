@@ -2,8 +2,6 @@
 /* Responsividade Celular */
 @media (max-width: 400px) {
 
-    /* ########################################### */
-    
     /* Espaço para breve descrição e vídeo */
    
     .cabecalho__menu {
@@ -16,8 +14,8 @@
     }
 
     .cabecalho__menu {
-    display: flex;
-    gap: 50px;
+        display: flex;
+        gap: 50px;
     }
 
     .cabecalho_img_puc {
@@ -47,7 +45,7 @@
     }
 
     .campo_video {
-        width: 300px;
+        width: 350px;
         height: 250px;
     }
 
