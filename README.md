@@ -1,7 +1,7 @@
 ## Single Page Aplication (Front-End)
 Este projeto faz parte do material didático da disciplina Desenvolvimento Full Stack Básico (Puc-Rio).
 
-O objetivo principal deste repositório é materializar o que foi lecionado durante a primeira sprint de front-end.
+O objetivo principal deste repositório é materializar o que foi lecionado durante a primeira sprint com assuntos relacionado ao desenvolvimento front-end.
 
 ## Como Executar
 Para executar este projeto localmente, siga as instruções abaixo:
