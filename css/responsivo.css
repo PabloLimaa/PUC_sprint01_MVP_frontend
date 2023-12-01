@@ -3,7 +3,7 @@
 @media (max-width: 400px) {
 
     /* Espaço para breve descrição e vídeo */
-   
+
     .cabecalho__menu {
         display: flex;
         flex-direction: column;
@@ -87,25 +87,25 @@
 
     table{
         background-color: white;
-        width: 60%;
+        width: 90%;
     }
     
     
     table tr:not(:first-child) td:first-child {
-        width: 10%;
+        width: 20%;
         vertical-align: top;
         font-weight: bold;
         font-size: 13px;
     }
     
     table tr:not(:first-child) td:nth-child(2) {
-        width: 45%;
+        width: 60%;
         font-size: 12px;
     }
     
     table tr:not(:first-child) td:nth-child(3) {
         font-size: 25px;
-        width: 5%;
+        width: 10%;
         color: red;
         /*content: url('../static/lixo.png');*/   
     }
@@ -216,14 +216,14 @@
     
     
     table tr:not(:first-child) td:first-child {
-        width: 10%;
+        width: 20%;
         vertical-align: middle;
         font-weight: bold;
         font-size: 13px;
     }
     
     table tr:not(:first-child) td:nth-child(2) {
-        width: 40%;
+        width: 60%;
         font-size: 12px;
     }
     
