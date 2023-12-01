@@ -216,14 +216,14 @@
     
     
     table tr:not(:first-child) td:first-child {
-        width: 10%;
+        width: 20%;
         vertical-align: middle;
         font-weight: bold;
         font-size: 13px;
     }
     
     table tr:not(:first-child) td:nth-child(2) {
-        width: 40%;
+        width: 60%;
         font-size: 12px;
     }
     
