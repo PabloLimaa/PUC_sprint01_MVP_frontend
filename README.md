@@ -9,7 +9,7 @@ Para executar este projeto localmente, siga as instruções abaixo:
 1° Faça o download ou clone este repositório em sua máquina local:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-projeto.git
+git clone https://github.com/PabloLimaa/PUC_sprint01_MVP_frontend
 ```
 
 2° Navegue até o diretório do projeto:
